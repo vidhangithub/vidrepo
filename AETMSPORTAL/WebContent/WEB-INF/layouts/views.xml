@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC
+	"-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+	"http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+
+	<definition name="index" extends="DefaultTemplate">
+	    <put-attribute name="body"	value="/WEB-INF/views/home.jsp" />
+	</definition>
+
+	<definition name="funActivity" extends="DefaultTemplate">
+	    <put-attribute name="body"	value="/WEB-INF/views/funActivity.jsp" />
+	</definition>
+
+	<definition name="result" extends="DefaultTemplate2">
+	    <put-attribute name="body"	value="/WEB-INF/views/employee.jsp" />
+	</definition>
+	<definition name="contact" extends="DefaultTemplate">
+	    <put-attribute name="body"	value="/WEB-INF/views/contact.jsp" />
+	</definition>
+	<definition name="login" extends="DefaultTemplate">
+	    <put-attribute name="body"	value="/WEB-INF/views/login.jsp" />
+	</definition>
+	<definition name="adminLogout" extends="DefaultTemplate">
+		<put-attribute name="body"	value="/WEB-INF/views/login.jsp" />
+	</definition>
+		<definition name="backlogview" extends="DefaultTemplate">
+	    <put-attribute name="body"	value="/WEB-INF/views/backlogview.jsp" />
+	</definition>
+		<definition name="productivityCalculation" extends="DefaultTemplate">
+	    <put-attribute name="body"	value="/WEB-INF/views/productivityCalculation.jsp" />
+	</definition>
+		<definition name="queryReview" extends="DefaultTemplate">
+	    <put-attribute name="body"	value="/WEB-INF/views/queryReview.jsp" />
+	</definition>
+		<definition name="application" extends="DefaultTemplate2">
+	    <put-attribute name="body"	value="/WEB-INF/views/application.jsp" />
+	</definition>
+	<definition name="shiftTracker" extends="DefaultTemplate">
+	    <put-attribute name="body"	value="/WEB-INF/views/shiftTracker.jsp" />
+	</definition>
+	<definition name="adminDataUpload" extends="DefaultTemplate">
+	    <put-attribute name="body"	value="/WEB-INF/views/adminDataUpload.jsp" />
+	</definition>
+	
+	<definition name="onBoardDataUpload" extends="DefaultTemplate">
+	    <put-attribute name="body"	value="/WEB-INF/views/onBoardDataUpload.jsp" />
+	</definition>
+	
+	<definition name="offBoardDataUpload" extends="DefaultTemplate">
+	    <put-attribute name="body"	value="/WEB-INF/views/offBoardDataUpload.jsp" />
+	</definition>
+	
+	<definition name="employeeDataUpload" extends="DefaultTemplate">
+	    <put-attribute name="body"	value="/WEB-INF/views/employeeDataUpload.jsp" />
+	</definition>
+	<definition name="errorPage" extends="DefaultTemplate">
+	    <put-attribute name="body"	value="/WEB-INF/views/errorPage.jsp" />
+	</definition>
+	<definition name="shift" extends="DefaultTemplate">
+	    <put-attribute name="body"	value="/WEB-INF/views/shift.jsp" />
+	</definition>
+	<definition name="srDetail" extends="DefaultTemplate">
+	    <put-attribute name="body"	value="/WEB-INF/views/srDetail.jsp" />
+	</definition>
+	<definition name="qrLoginView" extends="DefaultTemplate">
+	    <put-attribute name="body"	value="/WEB-INF/views/queryReview/QR_login.jsp" />
+	</definition>
+	<definition name="qrLoginSuccessForSubmitter" extends="DefaultTemplate">
+	    <put-attribute name="body"	value="/WEB-INF/views/queryReview/loginSuccessSubmitter.jsp" />
+	</definition>
+	<definition name="qrLoginSuccessForApprover" extends="DefaultTemplate">
+	    <put-attribute name="body"	value="/WEB-INF/views/queryReview/loginSuccessApprover.jsp" />
+	</definition>
+	<definition name="successAndSubmitMsg" extends="DefaultTemplate">
+	    <put-attribute name="body"	value="/WEB-INF/views/queryReview/successAndSubmitQuery.jsp" />
+	</definition>
+	<definition name="submitterDashBoard" extends="DefaultTemplate2">
+	    <put-attribute name="body"	value="/WEB-INF/views/queryReview/submitterDashboard.jsp" />
+	</definition>
+	<definition name="submitSuccessMsg" extends="DefaultTemplate">
+	    <put-attribute name="body"	value="/WEB-INF/views/queryReview/querySubmitSuccessMsg.jsp" />
+	</definition>
+	<definition name="approverDashBoard" extends="DefaultTemplate2">
+	    <put-attribute name="body"	value="/WEB-INF/views/queryReview/approverDashboard.jsp" />
+	</definition>
+	
+	<definition name="addRoom" extends="DefaultTemplate2">
+	    <put-attribute name="body"	value="/WEB-INF/views/chatSystem/addRoom.jsp" />
+	</definition>
+	<definition name="chat_login" extends="DefaultTemplate2">
+	    <put-attribute name="body"	value="/WEB-INF/views/chatSystem/chat_login.jsp" />
+	</definition>
+	<definition name="chat" extends="DefaultTemplate2">
+	    <put-attribute name="body"	value="/WEB-INF/views/chatSystem/chat.jsp" />
+	</definition>
+	<definition name="displayMessages" extends="DefaultTemplate2">
+	    <put-attribute name="body"	value="/WEB-INF/views/chatSystem/displayMessages.jsp" />
+	</definition>
+	<definition name="editInfo" extends="DefaultTemplate2">
+	    <put-attribute name="body"	value="/WEB-INF/views/chatSystem/editInfo.jsp" />
+	</definition>
+	<definition name="error" extends="DefaultTemplate2">
+	    <put-attribute name="body"	value="/WEB-INF/views/chatSystem/error.jsp" />
+	</definition>
+	<definition name="find" extends="DefaultTemplate2">
+	    <put-attribute name="body"	value="/WEB-INF/views/chatSystem/find.jsp" />
+	</definition>
+	<definition name="listrooms" extends="DefaultTemplate2">
+	    <put-attribute name="body"	value="/WEB-INF/views/chatSystem/listrooms.jsp" />
+	</definition>
+	<definition name="logout" extends="DefaultTemplate2">
+	    <put-attribute name="body"	value="/WEB-INF/views/chatSystem/logout.jsp" />
+	</definition>
+	<definition name="sendMessage" extends="DefaultTemplate2">
+	    <put-attribute name="body"	value="/WEB-INF/views/chatSystem/sendMessage.jsp" />
+	</definition>
+	<definition name="start" extends="DefaultTemplate2">
+	    <put-attribute name="body"	value="/WEB-INF/views/chatSystem/start.jsp" />
+	</definition>
+	<definition name="viewinfo" extends="DefaultTemplate2">
+	    <put-attribute name="body"	value="/WEB-INF/views/chatSystem/viewinfo.jsp" />
+	</definition>
+</tiles-definitions>
