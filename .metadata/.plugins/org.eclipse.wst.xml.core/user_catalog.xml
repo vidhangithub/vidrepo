@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+  <uri name="http://www.springframework.org/schema/aop" uri="file:///D:/JAR-WORLD/spring-framework-4.0.4.RELEASE/schema/aop/spring-aop-4.0.xsd"/>
+  <uri name="http://www.springframework.org/schema/beans" uri="file:///D:/JAR-WORLD/spring-framework-4.0.4.RELEASE/schema/beans/spring-beans-4.0.xsd"/>
+  <uri name="http://www.springframework.org/schema/cache" uri="file:///D:/JAR-WORLD/spring-framework-4.0.4.RELEASE/schema/cache/spring-cache-4.0.xsd"/>
+  <uri name="http://www.springframework.org/schema/context" uri="file:///D:/JAR-WORLD/spring-framework-4.0.4.RELEASE/schema/context/spring-context-4.0.xsd"/>
+  <uri name="http://www.springframework.org/schema/jdbc" uri="file:///D:/JAR-WORLD/spring-framework-4.0.4.RELEASE/schema/jee/spring-jee-4.0.xsd"/>
+  <uri name="http://www.springframework.org/schema/jms" uri="file:///D:/JAR-WORLD/spring-framework-4.0.4.RELEASE/schema/jms/spring-jms-4.0.xsd"/>
+  <uri name="http://www.springframework.org/schema/lang" uri="file:///D:/JAR-WORLD/spring-framework-4.0.4.RELEASE/schema/lang/spring-lang-4.0.xsd"/>
+  <uri name="http://www.springframework.org/schema/mvc" uri="file:///D:/JAR-WORLD/spring-framework-4.0.4.RELEASE/schema/mvc/spring-mvc-4.0.xsd"/>
+  <uri name="http://www.springframework.org/schema/oxm" uri="file:///D:/JAR-WORLD/spring-framework-4.0.4.RELEASE/schema/oxm/spring-oxm-4.0.xsd"/>
+  <uri name="http://www.springframework.org/schema/task" uri="file:///D:/JAR-WORLD/spring-framework-4.0.4.RELEASE/schema/task/spring-task-4.0.xsd"/>
+  <uri name="http://www.springframework.org/schema/tool" uri="file:///D:/JAR-WORLD/spring-framework-4.0.4.RELEASE/schema/tool/spring-tool-4.0.xsd"/>
+  <uri name="http://www.springframework.org/schema/tx" uri="file:///D:/JAR-WORLD/spring-framework-4.0.4.RELEASE/schema/tx/spring-tx-4.0.xsd"/>
+  <uri name="http://www.springframework.org/schema/util" uri="file:///D:/JAR-WORLD/spring-framework-4.0.4.RELEASE/schema/util/spring-util-4.0.xsd"/>
+  <uri name="http://www.springframework.org/schema/websocket" uri="file:///D:/JAR-WORLD/spring-framework-4.0.4.RELEASE/schema/websocket/spring-websocket-4.0.xsd"/>
+</catalog>

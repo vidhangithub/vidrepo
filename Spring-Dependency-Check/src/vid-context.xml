@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:tx="http://www.springframework.org/schema/tx" 
+	xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:mvc="http://www.springframework.org/schema/mvc"
+	xmlns:util="http://www.springframework.org/schema/util"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:lang="http://www.springframework.org/schema/lang"
+	xmlns:jms="http://www.springframework.org/schema/jms"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+	http://www.springframework.org/schema/beans/spring-beans-3.2.xsd 
+	http://www.springframework.org/schema/context  
+	http://www.springframework.org/schema/context/spring-context-3.2.xsd 
+	http://www.springframework.org/schema/mvc
+	http://www.springframework.org/schema/mvc/spring-mvc-3.2.xsd
+    http://www.springframework.org/schema/tx
+    http://www.springframework.org/schema/tx/spring-tx-3.2.xsd 
+    http://www.springframework.org/schema/util 
+    http://www.springframework.org/schema/util/spring-util-3.2.xsd 
+    http://www.springframework.org/schema/aop 
+    http://www.springframework.org/schema/aop/spring-aop-3.2.xsd 
+    http://www.springframework.org/schema/lang 
+    http://www.springframework.org/schema/lang/spring-lang-3.2.xsd 
+    http://www.springframework.org/schema/jms 
+    http://www.springframework.org/schema/jms/spring-jms-3.2.xsd" >
+    
+    <bean id ="vidone" class="com.vidhan.variousvalinjctn.VidhanDependent" dependency-check="simple">
+    <property name = "custname" value = "vidhan Chandra" /> 
+    <property name = "custage" value = "30" />
+    <constructor-arg index="0">
+    <list>
+    <ref local = "custDepndnt"/>
+    <ref local = "custDepndntSeond"/>
+    <ref local = "custDepndntThird"/>
+    </list>
+    </constructor-arg>
+    <constructor-arg index="1">
+    <map key-type="java.lang.Integer" value-type="java.lang.String">
+    <entry key="01" value="7205226837"/>
+    <entry key="02" value="9078341517"/>
+    <entry key="03" value="9973786074"/>
+    </map>
+    </constructor-arg>
+    <constructor-arg index="2">
+    <set>
+    <ref local = "orderhistory"/>
+    <ref local = "orderhistoryone"/>
+    </set>
+    </constructor-arg>
+    <constructor-arg index="3">
+    <props>
+    <prop key ="height">six feet</prop>
+    <prop key ="weight">sixty nine lbs</prop>
+    </props>
+    </constructor-arg>
+    </bean>
+    
+    <bean id ="vidtwo" class="com.vidhan.variousvalinjctn.VidhanDependentTwo">
+    <constructor-arg index="0" value="Mysore Infosys"/>
+    <constructor-arg index="1" value="91"/>
+    </bean>
+    
+    <bean id ="vidcmpltinfo" class="com.vidhan.variousvalinjctn.VidhanCompeleteCustomerInfo">
+    <property name = "viddepone" ref = "vidone" />
+    <property name = "viddeptwo" ref = "vidtwo" />
+    </bean>
+    
+     <bean id ="custDepndnt" class="com.vidhan.variousvalinjctn.CustomerDependents">
+    <property name = "dependentName" value = "Lipshika" />
+    <property name = "dependentAge" value = "4" />
+    </bean>
+    
+     <bean id ="custDepndntSeond" class="com.vidhan.variousvalinjctn.CustomerDependents">
+    <property name = "dependentName" value = "kinjal" />
+    <property name = "dependentAge" value = "3" />
+    </bean>
+    
+    <bean id ="custDepndntThird" class="com.vidhan.variousvalinjctn.CustomerDependents">
+    <property name = "dependentName" value = "rita" />
+    <property name = "dependentAge" value = "30" />
+    </bean>
+    
+     <bean id ="orderhistory" class="com.vidhan.variousvalinjctn.OrderHistory">
+    <property name = "orderID" value = "001" />
+    <property name = "orderDescription" value = "1P" />
+    </bean>
+    
+     <bean id ="orderhistoryone" class="com.vidhan.variousvalinjctn.OrderHistory">
+    <property name = "orderID" value = "002" />
+    <property name = "orderDescription" value = "2P" />
+    </bean>
+    
+    </beans>

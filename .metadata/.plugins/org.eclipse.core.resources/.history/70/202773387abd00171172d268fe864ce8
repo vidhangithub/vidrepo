@@ -1,0 +1,8 @@
+package com.infosys.springmvc.controllers;
+
+import org.springframework.stereotype.Controller;
+
+@Controller
+public class HelloWorldController {
+
+}

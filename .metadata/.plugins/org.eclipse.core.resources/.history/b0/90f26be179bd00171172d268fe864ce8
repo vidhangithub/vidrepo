@@ -1,0 +1,5 @@
+package com.infosys.springmvc.controllers;
+
+public class HelloWorldController {
+
+}
