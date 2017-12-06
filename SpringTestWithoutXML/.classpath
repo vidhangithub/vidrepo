@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="lib" path="D:/JLC software 1/spring-4.3.9-jars/spring-aop-4.3.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/JLC software 1/spring-4.3.9-jars/spring-aspects-4.3.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/JLC software 1/spring-4.3.9-jars/spring-beans-4.3.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/JLC software 1/spring-4.3.9-jars/spring-context-4.3.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/JLC software 1/spring-4.3.9-jars/spring-context-support-4.3.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/JLC software 1/spring-4.3.9-jars/spring-core-4.3.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/JLC software 1/spring-4.3.9-jars/spring-expression-4.3.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/JLC software 1/spring-4.3.9-jars/spring-instrument-4.3.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/JLC software 1/spring-4.3.9-jars/spring-instrument-tomcat-4.3.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/JLC software 1/spring-4.3.9-jars/spring-jdbc-4.3.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/JLC software 1/spring-4.3.9-jars/spring-jms-4.3.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/JLC software 1/spring-4.3.9-jars/spring-messaging-4.3.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/JLC software 1/spring-4.3.9-jars/spring-orm-4.3.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/JLC software 1/spring-4.3.9-jars/spring-oxm-4.3.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/JLC software 1/spring-4.3.9-jars/spring-test-4.3.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/JLC software 1/spring-4.3.9-jars/spring-tx-4.3.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/JLC software 1/spring-4.3.9-jars/spring-web-4.3.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/JLC software 1/spring-4.3.9-jars/spring-webmvc-4.3.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/JLC software 1/spring-4.3.9-jars/spring-webmvc-portlet-4.3.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/JLC software 1/spring-4.3.9-jars/spring-websocket-4.3.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/JAR-WORLD/commons-logging.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

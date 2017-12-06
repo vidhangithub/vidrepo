@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/J2SE-1.5"/>
+	<classpathentry kind="lib" path="C:/Users/User/Desktop/spring test jars/spring-aop.jar"/>
+	<classpathentry kind="lib" path="C:/Users/User/Desktop/spring test jars/spring-beans.jar"/>
+	<classpathentry kind="lib" path="C:/Users/User/Desktop/spring test jars/spring-context.jar"/>
+	<classpathentry kind="lib" path="C:/Users/User/Desktop/spring test jars/spring-context-support.jar"/>
+	<classpathentry kind="lib" path="C:/Users/User/Desktop/spring test jars/spring-core.jar"/>
+	<classpathentry kind="lib" path="C:/Users/User/Desktop/spring test jars/spring-jdbc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/User/Desktop/spring test jars/spring-jms.jar"/>
+	<classpathentry kind="lib" path="C:/Users/User/Desktop/spring test jars/spring-orm.jar"/>
+	<classpathentry kind="lib" path="C:/Users/User/Desktop/spring test jars/spring-test.jar"/>
+	<classpathentry kind="lib" path="C:/Users/User/Desktop/spring test jars/spring-tx.jar"/>
+	<classpathentry kind="lib" path="C:/Users/User/Desktop/spring test jars/spring-web.jar"/>
+	<classpathentry kind="lib" path="C:/Users/User/Desktop/spring test jars/spring-webmvc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/User/Desktop/spring test jars/spring-webmvc-portlet.jar"/>
+	<classpathentry kind="lib" path="C:/Users/User/Desktop/spring test jars/spring-webmvc-struts.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
